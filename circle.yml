@@ -14,8 +14,6 @@ jobs:
           SKIP_AUTOMERGE_BITNAMI_CHART: "1"
           DOCKER_PROJECT: bitnami
           IBM_PROJECT: bitnami-bx-test
-          QUAY_PROJECT: bitnami
-          GCLOUD_PROJECT: bitnami-containers
 
     steps:
       - checkout
